@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("LQjiJyo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.bio {
+    text-align: center;
+    color: #fff;
+}
+
+.hobbies {
+    text-align: center;
+    color: #fff;
+}
+
+.personer {
+    text-align: center;
+    color: #fff;
+}
+
+.ol {
+    color: #fff;
+}
+
+.li {
+    color: #fff;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff
+}
